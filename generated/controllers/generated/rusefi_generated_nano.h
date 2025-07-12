@@ -451,7 +451,7 @@
 #define ego_sensor_e_ES_PLX 4
 #define egoSettings_NAME "CAN O2 sensors"
 #define EGT_CHANNEL_COUNT 8
-#define engine_configuration_s_size 3912
+#define engine_configuration_s_size 4296
 #define engine_load_mode_e_auto_enum 0="LM_SPEED_DENSITY",2="LM_ALPHA_N",3="LM_LUA",100="LM_MOCK",1="LM_REAL_MAF"
 #define engine_load_mode_e_enum "Speed Density", "MAF Air Charge", "Alpha-N", "Lua"
 #define engine_load_mode_e_LM_ALPHA_N 2
@@ -1202,13 +1202,13 @@
 #define gppwm_channel_e_GPPWM_VVT_2E 14
 #define gppwm_channel_e_GPPWM_VVT_2I 13
 #define gppwm_channel_e_GPPWM_Zero 0
-#define gppwm_channel_size 108
+#define gppwm_channel_size 204
 #define GPPWM_CHANNELS 4
 #define gppwm_compare_mode_e_GPPWM_GreaterThan 0
 #define gppwm_compare_mode_e_GPPWM_LessThan 1
-#define GPPWM_LOAD_COUNT 8
+#define GPPWM_LOAD_COUNT 12
 #define GPPWM_NOTE_SIZE 16
-#define GPPWM_RPM_COUNT 8
+#define GPPWM_RPM_COUNT 12
 #define HD_MENU_NAME "Harley"
 #define hpfp_cam_e_auto_enum 0="HPFP_CAM_NONE",2="HPFP_CAM_EX1",4="HPFP_CAM_EX2",1="HPFP_CAM_IN1",3="HPFP_CAM_IN2"
 #define hpfp_cam_e_enum "NONE", "Intake 1", "Exhaust 1", "Intake 2", "Exhaust 2"
@@ -1241,12 +1241,12 @@
 #define idle_state_e_TPS_THRESHOLD 1
 #define IDLE_VE_SIZE 4
 #define IGN_BLEND_COUNT 4
-#define ign_cyl_trim_s_size 64
+#define ign_cyl_trim_s_size 16
 #define IGN_LOAD_COUNT 16
 #define IGN_RPM_COUNT 16
 #define IGN_TRIM_1_NAME "Ignition trim cyl 1"
 #define IGN_TRIM_2_NAME "Ignition trim cyl 2"
-#define IGN_TRIM_SIZE 8
+#define IGN_TRIM_SIZE 4
 #define IGNITION_ADVANCE_MENU_NAME "Ignition advance"
 #define IGNITION_ADVANCE_TABLE_NAME "Ignition Table"
 #define ignition_mode_e_auto_enum 0="IM_ONE_COIL",1="IM_INDIVIDUAL_COILS",3="IM_TWO_COILS",2="IM_WASTED_SPARK"
@@ -1266,8 +1266,8 @@
 #define INDICATOR_NAME_BRAKE_DOWN "Brake switch"
 #define INDICATOR_NAME_CLUTCH_DOWN "Clutch: down"
 #define INDICATOR_NAME_CLUTCH_UP "Clutch: up"
-#define INJ_PHASE_LOAD_COUNT 16
-#define INJ_PHASE_RPM_COUNT 16
+#define INJ_PHASE_LOAD_COUNT 6
+#define INJ_PHASE_RPM_COUNT 6
 #define INJ_STAGING_COUNT 6
 #define injection_mode_e_auto_enum 0="IM_SIMULTANEOUS",2="IM_BATCH",1="IM_SEQUENTIAL",3="IM_SINGLE_POINT"
 #define injection_mode_e_IM_BATCH 2
@@ -1332,7 +1332,7 @@
 #define lua_gauge_meaning_e_LUA_GAUGE_LOWER_BOUND 0
 #define lua_gauge_meaning_e_LUA_GAUGE_UPPER_BOUND 1
 #define LUA_PWM_COUNT 8
-#define LUA_SCRIPT_SIZE 8000
+#define LUA_SCRIPT_SIZE 15000
 #define MAF_DECODING_COUNT 32
 #define maf_sensor_type_e_auto_enum 0="CUSTOM",2="Bosch0280218004",1="Bosch0280218037",3="DensoTODO"
 #define maf_sensor_type_e_Bosch0280218004 2
@@ -1342,13 +1342,13 @@
 #define maf_sensor_type_e_enum "v0", "v1", "v2", "v3"
 #define MAIN_HELP_URL "http://www.rusefi.com/"
 #define MAP_ANGLE_SIZE 8
-#define MAP_EST_LOAD_COUNT 16
-#define MAP_EST_RPM_COUNT 16
+#define MAP_EST_LOAD_COUNT 6
+#define MAP_EST_RPM_COUNT 6
 #define MAP_sensor_config_s_size 140
 #define MAP_UPPER_LIMIT 650
 #define MAP_WINDOW_SIZE 8
 #define MAX_CYLINDER_COUNT 12
-#define MAX_TPS_PPS_DISCREPANCY 5
+#define MAX_TPS_PPS_DISCREPANCY 10
 #define mc33810maxDwellTimer_e_auto_enum 0="DWELL_2MS",3="DWELL_16MS",4="DWELL_32MS",1="DWELL_4MS",5="DWELL_64MS",2="DWELL_8MS"
 #define mc33810maxDwellTimer_e_DWELL_16MS 3
 #define mc33810maxDwellTimer_e_DWELL_2MS 0
@@ -1413,7 +1413,7 @@
 #define pedalSensor_NAME "Accelerator pedal"
 #define pedalToTpsTbl_NAME "ETB pedal target"
 #define PERCENT_TRIM_BYTE_PACKING_DIV 0.02
-#define persistent_config_s_size 24304
+#define persistent_config_s_size 30136
 #define pid_s_size 20
 #define pin_input_mode_e_auto_enum 0="PI_DEFAULT",4="PI_INVERTED_DEFAULT",6="PI_INVERTED_PULLDOWN",5="PI_INVERTED_PULLUP",2="PI_PULLDOWN",1="PI_PULLUP"
 #define pin_input_mode_e_enum "DEFAULT", "PULLUP", "PULLDOWN", "INVALID", "INVERTED DEFAULT", "INVERTED PULLUP", "INVERTED PULLDOWN"
@@ -1492,7 +1492,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 2295996955
+#define SIGNATURE_HASH 2784410828
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1560,7 +1560,7 @@
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_BUTTON 0
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_DOWN_SWITCH 2
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_UP_SWITCH 3
-#define TOTAL_CONFIG_SIZE 24304
+#define TOTAL_CONFIG_SIZE 30136
 #define TPS_2_BYTE_PACKING_MULT 100
 #define TPS_PPS_TOO_HIGH_THRESHOLD 110
 #define TPS_PPS_TOO_LOW_THRESHOLD -10
@@ -1934,6 +1934,7 @@
 #define ts_show_hardware_simulator true
 #define ts_show_hbridge_function true
 #define ts_show_hd true
+#define ts_show_hip9011 true
 #define ts_show_iat true
 #define ts_show_idle_hardware true
 #define ts_show_ign_key_analog_input false
@@ -1944,7 +1945,7 @@
 #define ts_show_injection_hardware true
 #define ts_show_injection_mode true
 #define ts_show_injection_phase true
-#define ts_show_injectionPinMode false
+#define ts_show_injectionPinMode true
 #define ts_show_InjectorFlowLinearizationTable false
 #define ts_show_intake_cam_edge true
 #define ts_show_intake_vvt_direction true
@@ -1967,7 +1968,7 @@
 #define ts_show_oil_sensors true
 #define ts_show_oil_temp_sensor true
 #define ts_show_onboard_accelerometer false
-#define ts_show_output_diag false
+#define ts_show_output_diag true
 #define ts_show_popular_vehicles true
 #define ts_show_primary_trigger true
 #define ts_show_reboot_to_dfu true
@@ -1996,7 +1997,7 @@
 #define ts_show_start_button true
 #define ts_show_starter_disable true
 #define ts_show_startup_map_baro_grab true
-#define ts_show_status_leds true
+#define ts_show_status_leds false
 #define ts_show_stepper_hbridge true
 #define ts_show_stepper_push_pull false
 #define ts_show_strokes true
@@ -2032,7 +2033,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.12.nano.2295996955"
+#define TS_SIGNATURE "rusEFI main.2025.07.12.nano.2784410828"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'

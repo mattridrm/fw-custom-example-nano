@@ -1,3 +1,13 @@
+#define ts_show_etb_pins false
+#define ts_show_tcu false
+#define ts_show_software_knock false
+#define ts_show_injectionPinMode true
+#define ts_show_output_diag true
+#define ts_show_gdi false
+#define ts_show_k_line false
+#define ts_show_hip9011 true
+#define show_tcu_gauges false
+
 #define LUA_SCRIPT_SIZE 15000
 
 #define GPPWM_RPM_COUNT 12
